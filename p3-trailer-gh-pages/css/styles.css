@@ -86,6 +86,11 @@ MEDIA QUERIES
 		text-align: center;
 	}
 	
+	.info {
+		background: grey;
+		border-radius: 20px;
+		margin-top: 15px;
+	}
 }
 
 /* Tablet */
