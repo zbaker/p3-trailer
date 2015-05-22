@@ -1,0 +1,97 @@
+
+
+@font-face {
+font-family: 'Amity Jack';
+src: url('../font/Amity Jack.ttf');
+}
+
+/********************
+OVERRIDE MEDIA ELEMENT PLAYER STYLING
+*******************/
+
+/* Wrapper container */
+.mejs-container,
+.mejs-overlay {
+	
+	/* Hack around Media Element Player */
+	width: 100% !important;
+}
+
+/* [] 1. Change overlayed play button */
+.mejs-378 .mejs-overlay-button {
+ 
+}
+
+/* [] 2. Control Wrapper Positioning */
+.mejs-378 .mejs-controls {
+
+}
+
+/* [] 3. Play Button */
+.mejs-378 .mejs-controls .mejs-play button {
+	
+}
+
+/* [] 4. Current Time Display */
+.mejs-378 .mejs-controls .mejs-currenttime {
+	
+}
+
+/* [] 5. Rail: Current Loaded, To Load, & Background */
+.mejs-378 .mejs-controls div.mejs-time-rail {
+	
+}
+
+.mejs-378 .mejs-controls .mejs-time-rail .mejs-time-loaded {
+	background: green;
+}
+
+.mejs-378 .mejs-controls .mejs-time-rail .mejs-time-current {
+	background: red;
+}
+
+/* ADD MORE STYLING. MAKE IT YOUR OWN. */
+
+
+/********************
+MEDIA QUERIES
+*******************/
+
+/* Desktop */
+@media (min-width: 769px) {
+
+	body {
+    	background: url(../img/JawsBackground.png) bottom no-repeat fixed;
+    	background-size: 100%;
+	}
+
+	h1 {
+		font-family: 'Amity Jack', 'Georgia', serif;
+		font-size: 200px;
+		color: #AB1002;
+		text-align: center;
+		margin-top: -30px;
+		margin-bottom: -30px;
+	}
+
+	h2 {
+		font-size: 50px;
+		text-align: center;
+		margin-top: -25px;
+	}
+
+	.director {
+		font-size: 18px;
+		color: #AB1002;
+		text-align: center;
+	}
+	
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+}
