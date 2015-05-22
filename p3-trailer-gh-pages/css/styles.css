@@ -87,7 +87,8 @@ MEDIA QUERIES
 	}
 	
 	.info {
-		background: grey;
+		background: #454545;
+		color: white;
 		border-radius: 20px;
 		margin-top: 15px;
 	}

@@ -1,0 +1,23 @@
+.mejs-jaws .mejs-controls {
+	background: rgba(0, 0, 0, 0.98);
+	height: 30px;
+}
+
+.mejs-jaws .mejs-controls .mejs-button button{
+	outline: none;
+}
+
+.mejs-jaws .mejs-controls .mejs-captions-button {
+	margin: 0 7px;
+}
+
+.mejs-jaws .mejs-controls .mejs-captions-selector {
+	background: rgba(100, 20, 20, 0.98);
+	width: 100px;
+	right: auto;
+}
+
+.mejs-jaws .mejs-controls .mejs-time-rail span{
+	height: 100%;
+	border-radius: 0px;
+}
