@@ -1,3 +1,10 @@
+
+
+@font-face {
+font-family: 'Amity Jack';
+src: url('../font/Amity Jack.ttf');
+}
+
 /********************
 OVERRIDE MEDIA ELEMENT PLAYER STYLING
 *******************/
@@ -52,6 +59,20 @@ MEDIA QUERIES
 
 /* Desktop */
 @media (min-width: 769px) {
+
+	body {
+    	background: url(../img/JawsBackground.png) no-repeat fixed;
+    	background-size: 100%;
+	}
+
+	h1 {
+		font-family: 'Amity Jack', 'Georgia', serif;
+		font-size: 200px;
+		color: #AB1002;
+		text-align: center;
+		margin-top: -30px;
+		margin-bottom: -30px;
+	}
 	
 }
 
