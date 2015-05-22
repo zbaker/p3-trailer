@@ -61,7 +61,7 @@ MEDIA QUERIES
 @media (min-width: 769px) {
 
 	body {
-    	background: url(../img/JawsBackground.png) no-repeat fixed;
+    	background: url(../img/JawsBackground.png) bottom no-repeat fixed;
     	background-size: 100%;
 	}
 
@@ -78,6 +78,12 @@ MEDIA QUERIES
 		font-size: 50px;
 		text-align: center;
 		margin-top: -25px;
+	}
+
+	.director {
+		font-size: 18px;
+		color: #AB1002;
+		text-align: center;
 	}
 	
 }
