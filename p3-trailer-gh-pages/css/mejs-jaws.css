@@ -18,31 +18,37 @@
 	padding: 0px;
 }
 
+.mejs-jaws .mejs-controls .mejs-time-total,
+.mejs-jaws .mejs-controls .mejs-time-buffering,
+.mejs-jaws .mejs-controls .mejs-time-handle {
+	background: rgba(0, 0, 0, 0.75);
+	height: 75%;
+}
+
+.mejs-jaws .mejs-controls .mejs-time-rail span{
+	border-radius: 20px;
+}
+
+.mejs-jaws .mejs-controls .mejs-time-total,
+.mejs-jaws .mejs-controls .mejs-time-buffering,
+.mejs-jaws .mejs-controls .mejs-time-handle {
+	background: rgba(0, 0, 0, 0.75);
+	height: 75%;
+}
+
+
 .mejs-jaws .mejs-controls .mejs-time-rail .mejs-time-current{
 	background: rgba(166, 2, 2, .90);
 	height: 100%;
 }
 
 .mejs-jaws .mejs-controls .mejs-time-loaded{
-	background: rgba(255, 255, 255, 0.25);
+	background: rgba(255, 255, 255, 0.10);
 	height: 100%;
 }
 
-.mejs-jaws .mejs-controls .mejs-time-total,
-.mejs-jaws .mejs-controls .mejs-time-buffering,
-.mejs-jaws .mejs-controls .mejs-time-handle {
-	background: rgba(50, 60, 70, 0.85);
-	height: 75%;
-}
 
 
-.mejs-jaws .mejs-controls .mejs-time-rail span{
-	border-radius: 20px;
-}
-
-.mejs-jaws .mejs-controls .mejs-time-rail .mejs-time-total .mejs-time-float {
-	
-}
 
 
 

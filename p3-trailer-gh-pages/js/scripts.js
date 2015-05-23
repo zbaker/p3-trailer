@@ -1,3 +1,5 @@
 // My Scripts
 
-$('video').mediaelementplayer();
+$('video').mediaelementplayer({
+	features: ['playpause', 'progress', 'volume', 'fullscreen']
+});
