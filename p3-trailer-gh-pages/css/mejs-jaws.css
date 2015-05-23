@@ -1,5 +1,5 @@
 .mejs-jaws .mejs-controls {
-	background: rgba(56, 64, 71, 0.98);
+	background: rgba(56, 64, 71, 0.95);
 	height: 30px;
 }
 
@@ -31,7 +31,7 @@
 .mejs-jaws .mejs-controls .mejs-time-total,
 .mejs-jaws .mejs-controls .mejs-time-buffering,
 .mejs-jaws .mejs-controls .mejs-time-handle {
-	background: rgba(0, 0, 0, 0.98);
+	background: rgba(50, 60, 70, 0.85);
 	height: 75%;
 }
 
